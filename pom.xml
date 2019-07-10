@@ -12,10 +12,7 @@
       <id>nexus-snapshots</id>
       <url>http://3.19.120.67:8081/#browse/browse/components:maven-snapshots</url>
    </snapshotRepository>
-  <releaseRepository>
-      <id>nexus-releases</id>
-      <url>http://3.19.120.67:8081/#browse/browse/components:maven-releases</url>
-   </releaseRepository>
+  
 </distributionManagement>
   <dependencies>
     <dependency>
@@ -58,7 +55,7 @@
       <plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-deploy-plugin</artifactId>
-   <version>${maven-deploy-plugin.version}</version>
+   <version>3.0.0-M1</version>
    <configuration>
       <skip>true</skip>
    </configuration>
