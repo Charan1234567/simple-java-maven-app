@@ -16,11 +16,6 @@
       <id>snapshots</id>
       <url>http://52.15.78.140:8081/nexus/content/repositories/snapshots/</url>
    </snapshotRepository>
-   <releaseRepository>
-      <id>releases</id>
-      <url>http://52.15.78.140:8081/nexus/content/repositories/releases/</url>
-   </releaseRepository>
-  
 </distributionManagement>
   <dependencies>
     <dependency>
